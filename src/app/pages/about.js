@@ -1,4 +1,4 @@
-import Layout from '../components/Layout'
+import Layout from '../components/Layout';
 
 const sayHi = () => {
   console.log('hi')
@@ -11,4 +11,4 @@ export default () => (
       <button onClick={sayHi} />
     </Layout>
   </div>
-)
+);
