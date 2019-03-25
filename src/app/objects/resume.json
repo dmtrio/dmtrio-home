@@ -1,0 +1,99 @@
+{
+  "basics": {
+    "name": "Demetrio Urqudi",
+    "label": "Software Developer",
+    "picture": "",
+    "email": "info@dmtrio.me",
+    "phone": "(915) 740-1365",
+    "website": "http://dmtrio.me",
+    "summary": "",
+    "location": {
+      "address": "1508 Soutport",
+      "postalCode": "78704",
+      "city": "San Francisco",
+      "countryCode": "US",
+      "region": "California"
+    },
+    "profiles": [{
+      "network": "Github",
+      "username": "dmtrio",
+      "url": "https://github.com/dmtrio"
+    }]
+  },
+  "work": [{
+    "company": "Cognizant",
+    "position": "Software Developer",
+    "website": "http://cognizant.com",
+    "startDate": "2018-01-01",
+    "endDate": "2019-03-29",
+    "summary": "Engineer in a Spotify-like squads/bands system. Conducted code reviews, coordinated releases, enforced standards",
+    "highlights": [
+      "Developed and packaged node-module for a customer facing chatbot",
+      "Delivered new experiences that increased that increased information density and customer conversion on page view",
+      "Elevated code quality by starting a conversation on standards and implementing linting",
+      "Created a new shopping experience from the ground for customers to purchase related items together"
+    ]
+  }],
+  "volunteer": [{
+    "organization": "Organization",
+    "position": "Volunteer",
+    "website": "http://organization.com/",
+    "startDate": "2012-01-01",
+    "endDate": "2013-01-01",
+    "summary": "Description...",
+    "highlights": [
+      "Awarded 'Volunteer of the Month'"
+    ]
+  }],
+  "education": [{
+    "institution": "University of Texas at Austin",
+    "area": "Architecture",
+    "studyType": "Bachelor",
+    "startDate": "2007-08-20",
+    "endDate": "2012-05-15",
+    "gpa": "4.0",
+    "courses": [
+    ]
+  }],
+  "awards": [{
+    "title": "Award",
+    "date": "2014-11-01",
+    "awarder": "Company",
+    "summary": "There is no spoon."
+  }],
+  "publications": [{
+    "name": "Publication",
+    "publisher": "Company",
+    "releaseDate": "2014-10-01",
+    "website": "http://publication.com",
+    "summary": "Description..."
+  }],
+  "skills": [{
+    "name": "Frontend Web Development",
+    "level": "Master",
+    "keywords": [
+      "HTML",
+      "CSS",
+      "Javascript"
+    ]
+  }],
+  "languages": [{
+    "language": "English",
+    "fluency": "Native speaker"
+  },
+  {
+    "language": "Spanish",
+    "fluency": "Native speaker"
+  }],
+  "interests": [{
+    "name": "Wildlife",
+    "keywords": [
+      "Ferrets",
+      "Unicorns"
+    ]
+  }],
+  "references": [{
+    "name": "Jane Doe",
+    "reference": "Reference..."
+  }]
+}

@@ -6,6 +6,7 @@ const linkStyle = {
 
 const Header = () => (
   <div>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" />
     <Link href="/">
       <a style={linkStyle}>Home</a>
     </Link>
@@ -15,4 +16,4 @@ const Header = () => (
   </div>
 )
 
-export default Header
+export default Header;
