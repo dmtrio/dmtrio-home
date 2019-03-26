@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Button from '@material-ui/core/Button';
-import Resume from 'jsonresume-theme-bluestars';
+// import Resume from 'jsonresume-theme-bluestars';
 import Layout from '../components/Layout';
 
 import feresume from '../objects/resume.json';
@@ -24,9 +24,9 @@ class About extends Component {
     const { resume } = this.props;
     return (
       <div>
-        <Layout>
+        <Layout css={'about'}>
           <p>Hello from about</p>
-          <Resume resume={resume} />
+          {/* <Resume resume={resume} /> */}
           <Button onClick={this.sayHi}>HI</Button>
         </Layout>
       </div>

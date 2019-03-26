@@ -1,4 +1,5 @@
-import Header from './Header'
+import Head from 'next/head';
+import Header from './Header';
 
 const layoutStyle = {
   margin: 20,
@@ -7,9 +8,16 @@ const layoutStyle = {
 }
 
 const Layout = props => (
-  <div style={layoutStyle}>
-    <Header />
-    {props.children}
+  <div>
+    <Head>
+      <title>My styled page</title>
+      <link href={`/_next/static/css/${props.css}.css`} rel="stylesheet" />
+    </Head>
+    <h2>This is a Serveless Server-Side Rendered app</h2>
+    <div style={layoutStyle}>
+      <Header />
+      {props.children}
+    </div>
   </div>
 )
 

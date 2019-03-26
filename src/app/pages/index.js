@@ -35,7 +35,7 @@ class Index extends Component {
     );
 
     return (
-      <Layout>
+      <Layout css={'index'}>
         <h1>My Blog</h1>
         <ul>
           <PostLink id="hello-nextjs" title="Hello Next.js" />
