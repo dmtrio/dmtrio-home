@@ -16,8 +16,8 @@
     "lint:fix": "eslint --fix src",
     "logs": "firebase functions:log",
     "shell": "firebase functions:shell",
-    "sass": "sass \"src/app/pages\":\"dist/functions/next/static/css\"",
-    "sass:watch": "sass --watch \"src/app/pages\":\"dist/functions/next/static/css\""
+    "sass": "node-sass src/app/pages --output dist/functions/next/static/css",
+    "sass:watch": "node-sass --recursive --watch ./src/app/pages --output dist/functions/next/static/css"
   },
   "dependencies": {
     "@material-ui/core": "^3.9.2",
@@ -52,8 +52,8 @@
     "eslint-plugin-promise": "^4.0.1",
     "eslint-plugin-react": "^7.11.1",
     "eslint-plugin-standard": "^4.0.0",
-    "prettier": "^1.14.3",
-    "sass": "^1.17.3"
+    "node-sass": "^4.11.0",
+    "prettier": "^1.14.3"
   },
   "keywords": [
     "firebase",
