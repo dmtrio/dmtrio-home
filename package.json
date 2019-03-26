@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next -p 5000 src/app",
+    "dev": "next -p 5000 src/app && sass:watch",
     "preserve": "yarn build-public && yarn build-funcs && yarn copy-deps",
     "serve": "cd dist/functions && firebase serve -p 3000 --debug -o 0.0.0.0",
     "deploy": "cd dist/functions && firebase deploy",
@@ -16,7 +16,8 @@
     "lint:fix": "eslint --fix src",
     "logs": "firebase functions:log",
     "shell": "firebase functions:shell",
-    "sass": "sass \"src/app/pages\":\"dist/functions/next/static/css\""
+    "sass": "sass \"src/app/pages\":\"dist/functions/next/static/css\"",
+    "sass:watch": "sass --watch \"src/app/pages\":\"dist/functions/next/static/css\""
   },
   "dependencies": {
     "@material-ui/core": "^3.9.2",

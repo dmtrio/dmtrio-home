@@ -1,19 +1,14 @@
-import Link from 'next/link'
-
-const linkStyle = {
-  marginRight: 15
-}
+import Link from 'next/link';
 
 const Header = () => (
-  <div>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" />
+  <div className="header">
     <Link href="/">
-      <a style={linkStyle}>Home</a>
+      <a>Home</a>
     </Link>
     <Link href="/about">
-      <a style={linkStyle}>About</a>
+      <a>About</a>
     </Link>
   </div>
-)
+);
 
 export default Header;

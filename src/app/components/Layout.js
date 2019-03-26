@@ -1,4 +1,4 @@
-import Head from 'next/head';
+import ExtendHead from './ExtendHead';
 import Header from './Header';
 
 const layoutStyle = {
@@ -9,10 +9,7 @@ const layoutStyle = {
 
 const Layout = props => (
   <div>
-    <Head>
-      <title>My styled page</title>
-      <link href={`/_next/static/css/${props.css}.css`} rel="stylesheet" />
-    </Head>
+    <ExtendHead css={props.css} />
     <h2>This is a Serveless Server-Side Rendered app</h2>
     <div style={layoutStyle}>
       <Header />
