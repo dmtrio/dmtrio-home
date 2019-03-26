@@ -1,0 +1,22 @@
+body {
+    background-color: antiquewhite;
+    margin: 0;
+}
+.banner {
+    position: sticky;
+    top: 0px;
+    border: 1px solid #DDD;
+    margin: 0 auto;
+    background-color: white;
+
+    h2 {
+        width: fit-content;
+        margin: 10px auto 20px;
+    }
+}
+.page-layout {
+    margin: 20px;
+    padding: 20px;
+    // border: 1px solid #DDD;
+    background-color: white;
+}
