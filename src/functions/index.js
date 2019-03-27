@@ -1,18 +1,21 @@
 const functions = require('firebase-functions'); // // Create and Deploy Your First Cloud Functions
 const next = require('next');
 
-const dev = process.env.NODE_ENV !== 'production';
+// const dev = process.env.NODE_ENV !== 'production';
 const app = next({
-  dev: true,
+  dev: false,
   conf: { distDir: 'next' }
 });
 const handle = app.getRequestHandler(); 
 
 module.exports.ssr = functions.https.onRequest((req, res) => {
-  return app.prepare().then(() => handle(req, res)).catch(ex => {
-    console.error(ex.stack);
-    process.exit(1);
-  });  
+  return app.prepare()
+    .then(() => handle(req, res))
+    .catch(ex => {
+      console.error(ex.stack);
+      process.exit(1);
+    }
+  );  
 });
 
 // module.exports.ssr = functions.https.onRequest((req, res) => {

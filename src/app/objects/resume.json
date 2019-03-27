@@ -25,7 +25,7 @@
     "position": "Software Developer",
     "website": "http://cognizant.com",
     "startDate": "2018-01-01",
-    "endDate": "2019-03-29",
+    "endDate": "",
     "summary": "Engineer in a Spotify-like squads/bands system. Conducted code reviews, coordinated releases, enforced standards",
     "highlights": [
       "Developed and packaged node-module for a customer facing chatbot",
@@ -35,16 +35,32 @@
     ]
   }],
   "volunteer": [{
-    "organization": "Organization",
-    "position": "Volunteer",
-    "website": "http://organization.com/",
-    "startDate": "2012-01-01",
-    "endDate": "2013-01-01",
-    "summary": "Description...",
+    "organization": "Urban Trails",
+    "position": "Software Developer",
+    "website": "urbantrails.dmtrio.me",
+    "startDate": "",
+    "endDate": "",
+    "summary": "Mobile navigation app that enables cyclists in Austin to find bike amenities and submit reports.",
     "highlights": [
-      "Awarded 'Volunteer of the Month'"
+      "Led a mobile first design and architecture by implementing progressive web app best practices",
+      "Modeled an intuitive reactive Vue interface that kept track of open SPA components through the Vuex store",
+      "Implemented device responsive style scaling with Google material design guidelines"
     ]
-  }],
+  },
+  {
+    "organization": "Concreet Cal",
+    "position": "Software Developer",
+    "website": "",
+    "startDate": "",
+    "endDate": "",
+    "summary": "Event scheduling app that finds available times across all invited users",
+    "highlights": [
+      "Integrated Passport with Google Authentication passing down access tokens for front-end API calls",
+      "Queried Google Cal API’s for data of multiple offline users simultaneously",
+      "Paired a React front-end with React Big Calendar module that dynamically rendered Google data"
+    ]
+  }
+  ],
   "education": [{
     "institution": "University of Texas at Austin",
     "area": "Architecture",
@@ -52,6 +68,14 @@
     "startDate": "2007-08-20",
     "endDate": "2012-05-15",
     "gpa": "4.0",
+    "courses": [
+    ]
+  },
+  {
+    "institution": "Hack Reactor",
+    "area": "Advanced Software Engineering",
+    "studyType": "Immersive Program",
+    "endDate": "2017-07-30",
     "courses": [
     ]
   }],
@@ -72,9 +96,33 @@
     "name": "Frontend Web Development",
     "level": "Master",
     "keywords": [
-      "HTML",
-      "CSS",
-      "Javascript"
+      "Javascript",
+      "React",
+      "Redux",
+      "Vue",
+      "Vuex",
+      "jQuery",
+      "Mustache",
+      "HTML5",
+      "CSS3",
+      "Sass",
+      "Angular",
+      "LeafletJS"
+    ]
+  },
+  {
+    "name": "Backend Web Development",
+    "level": "Master",
+    "keywords": [
+      "Node",
+      "NextJs",
+      "Express",
+      "Hapi",
+      "Passport",
+      "Google API",
+      "Java",
+      "MongoDB",
+      "MySQL"  
     ]
   }],
   "languages": [{
